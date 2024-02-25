@@ -1,0 +1,11 @@
+C:\Users\ivanP\source\repos\Sort\Sortlibrary\bin\Debug\net8.0-windows\Sortlibrary.deps.json
+C:\Users\ivanP\source\repos\Sort\Sortlibrary\bin\Debug\net8.0-windows\Sortlibrary.dll
+C:\Users\ivanP\source\repos\Sort\Sortlibrary\bin\Debug\net8.0-windows\Sortlibrary.pdb
+C:\Users\ivanP\source\repos\Sort\Sortlibrary\obj\Debug\net8.0-windows\Sortlibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivanP\source\repos\Sort\Sortlibrary\obj\Debug\net8.0-windows\Sortlibrary.AssemblyInfoInputs.cache
+C:\Users\ivanP\source\repos\Sort\Sortlibrary\obj\Debug\net8.0-windows\Sortlibrary.AssemblyInfo.cs
+C:\Users\ivanP\source\repos\Sort\Sortlibrary\obj\Debug\net8.0-windows\Sortlibrary.csproj.CoreCompileInputs.cache
+C:\Users\ivanP\source\repos\Sort\Sortlibrary\obj\Debug\net8.0-windows\Sortlibrary.dll
+C:\Users\ivanP\source\repos\Sort\Sortlibrary\obj\Debug\net8.0-windows\refint\Sortlibrary.dll
+C:\Users\ivanP\source\repos\Sort\Sortlibrary\obj\Debug\net8.0-windows\Sortlibrary.pdb
+C:\Users\ivanP\source\repos\Sort\Sortlibrary\obj\Debug\net8.0-windows\ref\Sortlibrary.dll

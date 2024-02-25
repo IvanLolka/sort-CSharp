@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SortWPF/1.0.0": {
+        "dependencies": {
+          "Sortlibrary": "1.0.0"
+        },
+        "runtime": {
+          "SortWPF.dll": {}
+        }
+      },
+      "Sortlibrary/1.0.0": {
+        "runtime": {
+          "Sortlibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SortWPF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Sortlibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

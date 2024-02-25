@@ -1,0 +1,56 @@
+﻿<Window x:Class="SortWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SortWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="800">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" Margin="10,10,0,10" HorizontalAlignment="Left" Width="780">
+            <TextBlock Text="Название банка:" VerticalAlignment="Center"/>
+            <TextBox x:Name="BankNameTextBox" Width="200" VerticalAlignment="Center" Margin="5"/>
+            <Button Content="Добавить банк" Click="AddBank_Click" Margin="5"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="10,0,0,0" Grid.Row="2" Height="34" VerticalAlignment="Top" HorizontalAlignment="Left" Width="780">
+            <ComboBox x:Name="BankComboBox" Width="200" VerticalAlignment="Center" Margin="5" DisplayMemberPath="Name" SelectionChanged="BankComboBox_SelectionChanged"/>
+            <TextBlock Text="Название филиала:" VerticalAlignment="Center"/>
+            <TextBox x:Name="BranchNameTextBox" Width="200" VerticalAlignment="Center" Margin="5"/>
+            <Button Content="Добавить филиал" Click="AddBranch_Click" Margin="5"/>
+        </StackPanel>
+        <StackPanel Margin="10,49,0,0" Grid.Row="2" Height="96" VerticalAlignment="Top" HorizontalAlignment="Left" Width="780">
+            <StackPanel Orientation="Horizontal" Height="34">
+                <ComboBox x:Name="BranchComboBox" Width="200" VerticalAlignment="Center" Margin="5" DisplayMemberPath="Name"/>
+                <TextBlock Text="ФИО вкладчика:" VerticalAlignment="Center"/>
+                <TextBox x:Name="DepositorFullNameTextBox" Width="200" VerticalAlignment="Center" Margin="5"/>
+                <TextBlock Text="Сумма вклада:" VerticalAlignment="Center"/>
+                <TextBox x:Name="AmountTextBox" Width="100" VerticalAlignment="Center" Margin="5"/>
+
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Height="34">
+                <TextBlock Text="Тип вклада:" VerticalAlignment="Center"/>
+                <ComboBox x:Name="DepositTypeComboBox" Width="150" VerticalAlignment="Center" Margin="5">
+                    <ComboBoxItem Content="Долгосрочный"/>
+                    <ComboBoxItem Content="До востребования"/>
+                </ComboBox>
+                <TextBlock Text="Количество месяцев:" VerticalAlignment="Center"/>
+                <TextBox x:Name="MonthsTextBox" Width="100" VerticalAlignment="Center" Margin="5"/>
+                <Button Content="Добавить вклад" Click="AddDeposit_Click" Margin="5"/>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="2" Height="34" VerticalAlignment="Top" Margin="10,145,0,0" HorizontalAlignment="Left" Width="780">
+            <TextBlock Text="Минимальное количество банков:" VerticalAlignment="Center"/>
+            <Label x:Name="TotalBanksLabel" VerticalAlignment="Center"/>
+            <TextBlock Text="Минимальное количество филиалов:" VerticalAlignment="Center"/>
+            <Label x:Name="TotalBranchesLabel" VerticalAlignment="Center"/>
+            <TextBlock Text="Минимальное количество вкладов:" VerticalAlignment="Center"/>
+            <Label x:Name="TotalDepositsLabel" VerticalAlignment="Center"/>
+        </StackPanel>
+    </Grid>
+</Window>
